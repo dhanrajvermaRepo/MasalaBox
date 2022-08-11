@@ -1,0 +1,66 @@
+[
+   {
+      "image":"https://mbapp-media.s3.ap-south-1.amazonaws.com/img/ChocolateTruffle.jpg",
+      "price":100,
+      "isVeg":false,
+      "name":"Chocolate Truffle",
+      "description":"Chocolate cake with slick layers of cream and truffle topped of with a placid layer of chocolate truffle.",
+      "isLive":true
+   },
+   {
+      "image":"https://mbapp-media.s3.ap-south-1.amazonaws.com/img/RedVelvet.jpg",
+      "price":200,
+      "isVeg":true,
+      "name":"Red Velvet",
+      "description":"King of cakes, prepared as a layer cake topped with cooked roux icing.",
+      "isLive":true
+   },
+   {
+      "image":"https://mbapp-media.s3.ap-south-1.amazonaws.com/img/BlackForest.jpg",
+      "price":300,
+      "isVeg":true,
+      "name":"Black Forest",
+      "description":"Chocolate sponge cake layered with the lightest whipped cream and a glorious topping of chocolate flakes and fine red cherries.",
+      "isLive":false
+   },
+   {
+      "image":"https://mbapp-media.s3.ap-south-1.amazonaws.com/img/WhiteForest.jpg",
+      "price":400,
+      "isVeg":false,
+      "name":"White Forest",
+      "description":"Vanilla cake with a snowy covering of whipped cream. The sides are adorned with white chocolate, topped off with bright red cherries.",
+      "isLive":false
+   },
+   {
+      "image":"https://mbapp-media.s3.ap-south-1.amazonaws.com/img/IrishCoffee.jpg",
+      "price":500,
+      "isVeg":true,
+      "name":"Irish Coffee",
+      "description":"Chocolate sponge with smooth layers of Irish coffee cream and chocolate cream, topped off with a clear lake of Irish coffee cream and chocolate cream.",
+      "isLive":false
+   },
+   {
+      "image":"https://mbapp-media.s3.ap-south-1.amazonaws.com/img/PralineButterscotch.jpg",
+      "price":600,
+      "isVeg":false,
+      "name":"Praline Butterscotch",
+      "description":"White sponge with a delicious filling of butterscotch. Covered in whipped cream and an excess of praline on the sides.",
+      "isLive":false
+   },
+   {
+      "image":"https://mbapp-media.s3.ap-south-1.amazonaws.com/img/Vancho.jpg",
+      "price":700,
+      "isVeg":false,
+      "name":"Vancho",
+      "description":"This is vanilla and chocolate sponge, topped off with an eye illuminating layer of white and milk chocolate.",
+      "isLive":false
+   },
+   {
+      "image":"https://mbapp-media.s3.ap-south-1.amazonaws.com/img/BluberryCheeseCake.jpg",
+      "price":800,
+      "isVeg":false,
+      "name":"Blueberry Cheese Cake",
+      "description":"Thick creamy filling of cheese over a thinner crust and topped with sweet blueberry reduction",
+      "isLive":false
+   }
+]
