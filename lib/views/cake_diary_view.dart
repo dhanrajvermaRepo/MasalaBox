@@ -1,12 +1,12 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import 'package:masala_box_demo/cake_diary_view_controller.dart';
-import 'package:masala_box_demo/cake_list_item.dart';
-import 'package:masala_box_demo/constants.dart';
+import 'package:masala_box_demo/controllers/cake_diary_view_controller.dart';
+import 'package:masala_box_demo/views/cake_list_item.dart';
+import 'package:masala_box_demo/utils/constants.dart';
 import 'package:get/get.dart';
 
-import 'app_text_styles.dart';
+import '../utils/app_text_styles.dart';
 
 class CakeDiaryView extends StatelessWidget {
   CakeDiaryView({Key? key}) : super(key: key);

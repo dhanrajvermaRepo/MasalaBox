@@ -1,9 +1,9 @@
 import 'dart:convert';
 
 import 'package:flutter/services.dart';
-import 'package:masala_box_demo/cake_modal.dart';
-import 'package:masala_box_demo/constants.dart';
-import 'package:masala_box_demo/masala_box_exception.dart';
+import 'package:masala_box_demo/modals/cake_modal.dart';
+import 'package:masala_box_demo/utils/constants.dart';
+import 'package:masala_box_demo/utils/masala_box_exception.dart';
 import 'package:get_storage/get_storage.dart';
 
 class CakeDiaryRepository {

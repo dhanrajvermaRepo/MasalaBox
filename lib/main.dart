@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get_storage/get_storage.dart';
-import 'package:masala_box_demo/cake_diary_view.dart';
+import 'package:masala_box_demo/views/cake_diary_view.dart';
 
 void main() async {
   await GetStorage.init();

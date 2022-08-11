@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:masala_box_demo/cake_diary_view_controller.dart';
-import 'package:masala_box_demo/cake_modal.dart';
-import 'package:masala_box_demo/constants.dart';
+import 'package:masala_box_demo/controllers/cake_diary_view_controller.dart';
+import 'package:masala_box_demo/modals/cake_modal.dart';
+import 'package:masala_box_demo/utils/constants.dart';
 import 'package:get/get.dart';
 
-import 'app_text_styles.dart';
+import '../utils/app_text_styles.dart';
 
 class CakeListItem extends StatelessWidget {
   CakeListItem({Key? key, required this.cakeModal, required this.onDelete})
@@ -28,11 +28,11 @@ class CakeListItem extends StatelessWidget {
                 Row(
                   mainAxisSize: MainAxisSize.min,
                   children: [
-                    const Icon(
-                      Icons.cake,
-                      color: Colors.green,
-                      size: 20,
-                    ),
+                    Image.asset(
+                        cakeModal.isVeg ? AppStrings.veg : AppStrings.nonVeg,
+                        height: 20,
+                        width: 20,
+                        fit: BoxFit.contain),
                     const SizedBox(
                       width: 8,
                     ),
